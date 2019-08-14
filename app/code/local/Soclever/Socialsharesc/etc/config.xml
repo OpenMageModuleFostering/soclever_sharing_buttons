@@ -1,37 +1,37 @@
 <?xml version="1.0"?>
 <config>
 	<modules>
-        <Soclever_Socialshare>
+        <Soclever_Socialsharesc>
             <version>1.1.1</version>
-        </Soclever_Socialshare>
+        </Soclever_Socialsharesc>
     </modules>
     <frontend>
         <routers>
-            <socialshare>
+            <socialsharesc>
                 <use>standard</use>
                 <args>
-                    <module>Socelver_Socialshare</module>
-                    <frontName>socialshare</frontName>
+                    <module>Socelver_Socialsharesc</module>
+                    <frontName>socialsharesc</frontName>
                 </args>
-            </socialshare>
+            </socialsharesc>
         </routers>
         <layout>
             <updates>
-                <Soclever_Socialshare>
-                    <file>socialshare.xml</file>
-                </Soclever_Socialshare>
+                <Soclever_Socialsharesc>
+                    <file>socialsharesc.xml</file>
+                </Soclever_Socialsharesc>
             </updates>
         </layout>
     </frontend>
 	<admin>
         <routers>
-			<socialshare>
+			<socialsharesc>
 				<use>admin</use>
 				<args>
-					<module>Soclever_Socialshare</module>
-					<frontName>Socialshare admin</frontName>
+					<module>Soclever_Socialsharesc</module>
+					<frontName>Socialsharesc admin</frontName>
 				</args>
-			</socialshare>
+			</socialsharesc>
         </routers>
     </admin>
 	<adminhtml>
@@ -43,9 +43,9 @@
                             <children>
                                 <config>
                                     <children>
-                                        <socialshare_options>
+                                        <socialsharesc_options>
                                             <title>Store Social Share Module Section</title>
-                                        </socialshare_options>
+                                        </socialsharesc_options>
                                     </children>
                                 </config>
                             </children>
@@ -57,39 +57,39 @@
     </adminhtml>   
 	<global>
 		<models>
-            <socialshare>
-                <class>Soclever_Socialshare_Model</class>
-            </socialshare>
+            <socialsharesc>
+                <class>Soclever_Socialsharesc_Model</class>
+            </socialsharesc>
         </models>
         <resources>
-            <socialshare_setup>
+            <socialsharesc_setup>
                 <setup>
-                    <module>Soclever_Socialshare</module>
+                    <module>Soclever_Socialsharesc</module>
                 </setup>
                 <connection>
                     <use>core_setup</use>
                 </connection>
-            </socialshare_setup>
-            <socialshare_write>
+            </socialsharesc_setup>
+            <socialsharesc_write>
                 <connection>
                     <use>core_write</use>
                 </connection>
-            </socialshare_write>
-            <socialshare_read>
+            </socialsharesc_write>
+            <socialsharesc_read>
                 <connection>
                     <use>core_read</use>
                 </connection>
-            </socialshare_read>
+            </socialsharesc_read>
         </resources>
 		<blocks>
-			<socialshare>
-				<class>Soclever_Socialshare_Block</class>
-			</socialshare>
+			<socialsharesc>
+				<class>Soclever_Socialsharesc_Block</class>
+			</socialsharesc>
 		</blocks>
 		<helpers>
-			<socialshare>
-				<class>Soclever_Socialshare_Helper</class>
-			</socialshare>
+			<socialsharesc>
+				<class>Soclever_Socialsharesc_Helper</class>
+			</socialsharesc>
 		</helpers>
 	</global>
 </config>

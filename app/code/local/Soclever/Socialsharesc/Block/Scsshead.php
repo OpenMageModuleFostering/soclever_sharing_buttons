@@ -1,5 +1,5 @@
 <?php
-class Soclever_Socialshare_Block_Scsshead extends Mage_Core_Block_Template
+class Soclever_Socialsharesc_Block_Scsshead extends Mage_Core_Block_Template
 {
 	protected function _construct(){
         parent::_construct();

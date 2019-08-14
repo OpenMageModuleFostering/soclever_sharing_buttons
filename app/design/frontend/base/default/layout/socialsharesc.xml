@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<layout version="1.0.0">
+    <default>
+	 	<reference name="head">
+            <block type="socialsharesc/scsshead" name="socialsharesc_head" template="socialsharesc/socialsharesc_head.phtml" />
+        </reference>                
+	</default>
+    <default>
+	 	<reference name="before_body_end">
+            <block type="socialsharesc/scssfooter" name="socialsharesc_footer" template="socialsharesc/socialsharesc_footer.phtml" />
+        </reference>        
+	</default>
+    <catalog_product_view>
+        <reference name="alert.urls">
+            <block type="socialsharesc/scsshow" name="socialsharesc_product" template="socialsharesc/socialsharesc_product.phtml" before="-" />
+        </reference>        
+       </catalog_product_view>
+	   <default>
+        <reference name="content">
+        <block type="socialsharesc/scsshow" name="socialsharesc_show" template="socialsharesc/socialsharesc_show.phtml" />
+        </reference>
+       </default>     
+</layout>

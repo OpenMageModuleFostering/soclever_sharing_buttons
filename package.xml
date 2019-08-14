@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>soclever_sharing_buttons</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
     <channel>community</channel>
@@ -29,11 +29,11 @@
 Unlike other FREE sharing buttons SoClever DOES NOT sell your customer cookie data which allows competitors to target your customers/visitors.&lt;/p&gt;&#xD;
 &lt;p&gt;&lt;strong&gt;Dynamic JavaScript&lt;/strong&gt;&lt;br&gt;&#xD;
 Our asynchronous javascript load faster without interfearing with the display or behaviour of the page. Dynamic JavaScript makes it easy to choose/sort social netork buttons for display.&lt;/p&gt;</description>
-    <notes>Stable Version 1.0.0</notes>
+    <notes>Stable Version 1.0.1</notes>
     <authors><author><name>Soclever Social</name><user>Socleversocial</user><email>hemang@socleversocial.com</email></author></authors>
-    <date>2015-01-15</date>
-    <time>07:51:08</time>
-    <contents><target name="magelocal"><dir name="Soclever"><dir name="Socialshare"><dir name="Block"><dir name="Adminhtml"><file name="Help.php" hash="2276dfe2c2623d29775eaed4da51d827"/><file name="Positions.php" hash="3a48bfdeab119b14e2a042efd94788d5"/></dir><file name="Scsshead.php" hash="250c0e38bf8ae6e4822caca4bc1870b2"/><file name="Scsshow.php" hash="58883c5e501c1576d1e2765c7cac4a0d"/></dir><dir name="controllers"><file name="IndexController.php" hash="0b2c64cf59fb3d070479f3d639e2c520"/></dir><dir name="etc"><file name="config.xml" hash="0041e839c8fdb1c143c8596413ef2fd5"/><file name="system.xml" hash="2031d9dca4a3f03ca2d948b8a2895f86"/></dir><dir name="Helper"><file name="Data.php" hash="26100ff8846be15dee038d857b2335f9"/></dir><dir name="Model"><file name="Providers.php" hash="93ba841161cf67d903bb455d70269f08"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="socialshare.xml" hash="eb1d6e180d9257c379ab18f0a54c5109"/></dir><dir name="template"><dir name="socialshare"><file name="socialshare.phtml" hash="882027a88ba4832fc6aab04295a90645"/><file name="socialshare_head.phtml" hash="9b3fc1be19e93db607c9fe26a2702747"/><file name="socialshare_product.phtml" hash="e8b6e249c9a105ec3948b1c8e0312032"/><file name="socialshare_show.phtml" hash="564a5b38ac1482e494e719887084e41a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Soclever_Socialshare.xml" hash="213cb6e89c3408bb392eee9519b59047"/></dir></target></contents>
+    <date>2015-04-14</date>
+    <time>05:26:13</time>
+    <contents><target name="magelocal"><dir name="Soclever"><dir name="Socialsharesc"><dir name="Block"><dir name="Adminhtml"><file name="Help.php" hash="eca144a1a28dff90783200aa49746051"/><file name="Positions.php" hash="8377130d506a7447e8e1f7237b60e1c6"/><dir name="System"><dir name="Config"><dir name="Form"><dir name="Field"><file name="Customopt1toggle.php" hash="07a62f5baacef304587b5ec03e4a92c1"/></dir></dir></dir></dir></dir><file name="Scsshead.php" hash="2431d0175206e3a5d4b83fda9f2bce55"/><file name="Scsshow.php" hash="b6db268fc8524b25e8dc38379e984920"/><file name="Scssfooter.php" hash="b93dba620ecaaae446d1f5c099c4bd23"/></dir><dir name="controllers"><file name="IndexController.php" hash="4eaf422c7443916710d8a87973066033"/></dir><dir name="etc"><file name="config.xml" hash="059f78748877d750c21620a1e4a06dfa"/><file name="system.xml" hash="f601cf2ca6d1cf9aca4107c0dbc03a27"/></dir><dir name="Helper"><file name="Data.php" hash="d2e2fcd286fd2494814177e72bf0e0ed"/></dir><dir name="Model"><file name="Providers.php" hash="670d1e1a370ac8f19579591dcfe8376d"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="socialsharesc.xml" hash="6b3b0ae1dc4d7db2e36d795e5b933076"/></dir><dir name="template"><dir name="socialsharesc"><file name="socialsharesc.phtml" hash="882027a88ba4832fc6aab04295a90645"/><file name="socialsharesc_head.phtml" hash="ba15f1e70df8b1e78b1e2181b9df9161"/><file name="socialsharesc_product.phtml" hash="40b9a16a69488d9f34b64d671a731c8a"/><file name="socialsharesc_show.phtml" hash="0a763536ab332db55d229c8d19384bb7"/><file name="socialsharesc_footer.phtml" hash="fc3e6869469608478a8573b89f1dafe1"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Soclever_Socialsharesc.xml" hash="c10cdf8b9b3ab01bf0b8408d83ec1409"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Magento_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
 </package>

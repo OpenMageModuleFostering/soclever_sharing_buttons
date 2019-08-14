@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
-        <Soclever_Socialshare>
+        <Soclever_Socialsharesc>
             <active>true</active>
             <codePool>local</codePool>
-        </Soclever_Socialshare>
+        </Soclever_Socialsharesc>
     </modules>
 </config>
