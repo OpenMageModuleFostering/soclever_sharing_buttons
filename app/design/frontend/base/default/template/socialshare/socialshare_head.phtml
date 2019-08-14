@@ -1,0 +1,14 @@
+<?php
+$js_code ='<script type="text/javascript" src="https://www.socleversocial.com/dashboard/client_share_js/client_'.Mage::getStoreConfig('socialshare_options/apisettings/scss_siteid').'_share_noautho.js?v='.time().'"></script>'.PHP_EOL.
+          '<script>'.PHP_EOL.
+          'csauthosharebarjs.init([\''.Mage::getStoreConfig('socialshare_options/apisettings/scss_appid').'\', \''.Mage::getStoreConfig('socialshare_options/apisettings/scss_siteid').'\',\''.Mage::getStoreConfig('socialshare_options/apisettings/scss_appsecret').'\',\''.Mage::getStoreConfig('socialshare_options/apisettings/scss_validdomain').'\']);'.PHP_EOL.
+          'csauthosharebarjs.validateCsApi();'.PHP_EOL.
+          '</script>'.PHP_EOL;
+          /*$scss_thumbnail_url=Mage::getStoreConfig('socialshare_options/displaysettings/shareImage');
+          $js_code .= '<meta property="scss_image" content="'.$scss_thumbnail_url.'" />'.PHP_EOL;
+		  $js_code .= '<meta property="og:image" content="'.$scss_thumbnail_url.'" />'.PHP_EOL;
+          $js_code .= '<script type="text/javascript" /> var scss_share_image="'.$scss_thumbnail_url.'"</script>'.PHP_EOL;
+           */     
+echo $js_code;
+
+?>

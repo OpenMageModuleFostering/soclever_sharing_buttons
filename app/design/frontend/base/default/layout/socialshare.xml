@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="1.0.0">
+    <default>
+	 	<reference name="head">
+            <block type="socialshare/scsshead" name="socialshare_head" template="socialshare/socialshare_head.phtml" />
+        </reference>
+        <!--reference name="content">
+        <block type="socialshare/scsshow" name="socialshare_show" template="socialshare/socialshare_show.phtml" />
+        </reference-->
+	</default>
+    <catalog_product_view>
+        <reference name="alert.urls">
+            <block type="socialshare/scsshow" name="socialshare_product" template="socialshare/socialshare_product.phtml" before="-" />
+        </reference>
+       </catalog_product_view>
+	   <default>
+        <reference name="content">
+        <block type="socialshare/scsshow" name="socialshare_show" template="socialshare/socialshare_show.phtml" />
+        </reference>
+       </default>     
+</layout>

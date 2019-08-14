@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<package>
+    <name>soclever_sharing_buttons</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Configurable Facebook, Twitter, Google, Pinterest &amp; more Social buttons with reports</summary>
+    <description>&lt;h3&gt;Social Share Buttons &amp; Analytics By SoClever&lt;/h3&gt;&#xD;
+&lt;p&gt;SoClevers provides social sharing buttons tools to help increase social traffic and referred traffic. Our Plugin works with Facebook, Google+ LinkedIn, Twitter, Pinterest &amp;amp; Whatsapp. Our JavaScript is asynchronous ensuring fast load time, and it&#x2019;s also dynamic so you can A-B test from our dashboard without needing to re-code.&lt;/p&gt;&#xD;
+&lt;p&gt;100% Customizable designs, size, shape and colour. Select ours or load your own logo designs.&lt;/p&gt;&#xD;
+&lt;p&gt;Included in this plugin is our Social Buttons and Like bar PS: You'll need a SoClever API to use it. API Keys are free; paid subscriptions are available for advanced reporting, analytics and demographic data. Download now, Free to try, no contracts or credit card required.&lt;/p&gt;&#xD;
+&lt;p&gt;Thanks for choosing our plugin, feel free to leave a review or contact us for any feedback.&#xA0;If you want to know more about the features we offer, keep reading below. &#xD;
+  &#xD;
+&lt;/p&gt;&#xD;
+&lt;h3&gt;&lt;strong&gt;Features&lt;/strong&gt;&lt;/h3&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Social Sharing&#xD;
+  &#xD;
+  &lt;/strong&gt;&lt;br&gt;&#xD;
+  Allow users to share your pages to famous social networks and get free traffic from social networks. &lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Track Referral &lt;/strong&gt;&lt;br&gt;&#xD;
+  Sharing with Authentication allows you to track referral from shared links. Detailed reports on referral can be downloaded from SoClever Dashboard.&#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Sharing Reports from API &lt;/strong&gt;&lt;br&gt;&#xD;
+  We use API provided by social networks to count shares of your website pages. It makes it possible to get accurate history of your page's shares. &#xD;
+&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Cookie Data &lt;/strong&gt;&lt;br&gt;&#xD;
+Unlike other FREE sharing buttons SoClever DOES NOT sell your customer cookie data which allows competitors to target your customers/visitors.&lt;/p&gt;&#xD;
+&lt;p&gt;&lt;strong&gt;Dynamic JavaScript&lt;/strong&gt;&lt;br&gt;&#xD;
+Our asynchronous javascript load faster without interfearing with the display or behaviour of the page. Dynamic JavaScript makes it easy to choose/sort social netork buttons for display.&lt;/p&gt;</description>
+    <notes>Stable Version 1.0.0</notes>
+    <authors><author><name>Soclever Social</name><user>Socleversocial</user><email>hemang@socleversocial.com</email></author></authors>
+    <date>2015-01-15</date>
+    <time>07:51:08</time>
+    <contents><target name="magelocal"><dir name="Soclever"><dir name="Socialshare"><dir name="Block"><dir name="Adminhtml"><file name="Help.php" hash="2276dfe2c2623d29775eaed4da51d827"/><file name="Positions.php" hash="3a48bfdeab119b14e2a042efd94788d5"/></dir><file name="Scsshead.php" hash="250c0e38bf8ae6e4822caca4bc1870b2"/><file name="Scsshow.php" hash="58883c5e501c1576d1e2765c7cac4a0d"/></dir><dir name="controllers"><file name="IndexController.php" hash="0b2c64cf59fb3d070479f3d639e2c520"/></dir><dir name="etc"><file name="config.xml" hash="0041e839c8fdb1c143c8596413ef2fd5"/><file name="system.xml" hash="2031d9dca4a3f03ca2d948b8a2895f86"/></dir><dir name="Helper"><file name="Data.php" hash="26100ff8846be15dee038d857b2335f9"/></dir><dir name="Model"><file name="Providers.php" hash="93ba841161cf67d903bb455d70269f08"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="socialshare.xml" hash="eb1d6e180d9257c379ab18f0a54c5109"/></dir><dir name="template"><dir name="socialshare"><file name="socialshare.phtml" hash="882027a88ba4832fc6aab04295a90645"/><file name="socialshare_head.phtml" hash="9b3fc1be19e93db607c9fe26a2702747"/><file name="socialshare_product.phtml" hash="e8b6e249c9a105ec3948b1c8e0312032"/><file name="socialshare_show.phtml" hash="564a5b38ac1482e494e719887084e41a"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Soclever_Socialshare.xml" hash="213cb6e89c3408bb392eee9519b59047"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Magento_Core_Modules</name><channel>community</channel><min>1.6.0.0</min><max>1.7</max></package></required></dependencies>
+</package>
