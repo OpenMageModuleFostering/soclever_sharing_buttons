@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/soclever_sharing_buttons",
+    "name": "openmage-module-fostering\/soclever_sharing_buttons",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Configurable Facebook, Twitter, Google, Pinterest & more Social buttons with reports",
     "authors": [
